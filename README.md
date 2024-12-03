@@ -14,7 +14,7 @@ app.get("/api", (req, res) => {
 });
 
 app.get("/livro", (req, res) =>{
-       const livro = {
+       const livro = 
        
         titulo: "O Senhor dos Anéis",
         autor: "J.R.R. Tolkien",
@@ -33,10 +33,6 @@ Este é um simples servidor Node.js criado com Express.js que oferece duas rotas
 **Tecnologias:**
 * Node.js
 * Express.js
-
-**Instalação:**
-1. Clone este repositório: `git clone https://github.com/seu_usuario/seu_repositorio.git`
-2. Instale as dependências: `npm install`   
 
 
 **Uso:**
